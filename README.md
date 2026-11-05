@@ -4,6 +4,8 @@ A self-hosted web map of where you can fish for salmon in BC's Lower Mainland. I
 
 The UI is available in English, 繁體中文 and 简体中文.
 
+**Live site: [salmon.liand.dev](https://salmon.liand.dev/)**
+
 > **Unofficial.** This is a convenience tool, not legal advice. DFO's published regulations and fishery notices always take precedence.
 
 ![Map of open salmon waters in the Lower Mainland, with the list of open waters on the left](docs/screenshots/desktop.png)

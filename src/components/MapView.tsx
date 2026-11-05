@@ -7,6 +7,12 @@ import { fraserScope, statusOf, subScope, tidalStatus, TIDAL_FRASER_SUBS, type S
 import type { Area29Data, LatLng, RiverGeometry, Species, WaterVM } from '@/lib/types';
 import { useI18n } from './i18n-context';
 import { waterName } from '@/i18n';
+import { BBOX } from '@/lib/geo';
+
+/** Panning is limited to the area the map has data for (BBOX: Squamish, Powell River lakes, Fraser past Hope) plus a margin. */
+const VIEW_MARGIN = 0.3; // degrees
+const [S, W, N, E] = BBOX.split(',').map(Number);
+const VIEW_BOUNDS: [[number, number], [number, number]] = [[S - VIEW_MARGIN, W - VIEW_MARGIN], [N + VIEW_MARGIN, E + VIEW_MARGIN]];
 
 export type LayerId = 'light' | 'dark' | 'street' | 'topo' | 'satellite';
 
@@ -66,7 +72,25 @@ export default function MapView(props: Props) {
       const L = (await import('leaflet')).default;
       if (cancelled || !el.current || map.current) return;
       Lr.current = L;
-      const m = L.map(el.current, { zoomControl: false, attributionControl: true, preferCanvas: false, worldCopyJump: false }).setView([49.35, -122.75], 9);
+      const bounds = L.latLngBounds(VIEW_BOUNDS);
+      const m = L.map(el.current, {
+        zoomControl: false, attributionControl: true, preferCanvas: false, worldCopyJump: false,
+        maxBounds: bounds, maxBoundsViscosity: 1.0,
+      }).setView([49.35, -122.75], 9);
+      // Zooming out stops once the whole area fits on screen. Normal zooms stay whole steps so tiles are sharp;
+      // only this outermost level may be a half step, so the area fits snugly instead of jumping a full level out.
+      const fitMinZoom = () => {
+        const z = m.getZoom(), size = m.getSize();
+        const nw = m.project(bounds.getNorthWest(), z), se = m.project(bounds.getSouthEast(), z);
+        const fit = m.getScaleZoom(Math.min(size.x / (se.x - nw.x), size.y / (se.y - nw.y)), z);
+        m.setMinZoom(Math.max(6, Math.floor(fit * 2) / 2));
+      };
+      fitMinZoom();
+      m.on('resize', fitMinZoom);
+      // From that half step, "+" goes to the next whole level (8.5 → 9) instead of rounding past it (→ 10)
+      const zoomIn = m.zoomIn.bind(m);
+      m.zoomIn = (delta?: number, options?: Leaflet.ZoomOptions) =>
+        m.getZoom() % 1 ? m.setZoom(Math.ceil(m.getZoom()), options) : zoomIn(delta, options);
       L.control.zoom({ position: 'bottomright' }).addTo(m);
       m.attributionControl.setPrefix(false);
       for (const [name, z] of [['subareas', 395], ['context', 405], ['halo', 410], ['rivers', 420], ['pins', 640]] as const) {
