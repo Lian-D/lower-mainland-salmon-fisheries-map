@@ -25,7 +25,7 @@ The UI is available in English, 繁體中文 and 简体中文.
 - **Real river shapes.** When zoomed in, open stretches are drawn as the river's actual water outline from OpenStreetMap, cut at the boundary points. When zoomed out they're drawn as bold lines.
 - **Area 29 subareas.** Boundaries come from DFO's Pacific Fishery Management Subareas map service, and each subarea is coloured by the Salmon-tab rules that apply to it.
 - **Daily updates that respect DFO's servers.** Pages are checked once a day with conditional requests, and are only re-parsed when DFO's "Date modified" changes. If DFO is down or the parser breaks, the last good copy is kept.
-- **Salmon ID guide.** Illustrations of the five Pacific species and the hatchery adipose-fin clip.
+- **Salmon ID guide.** Photos of the five Pacific species with their key ID marks, plus a diagram of the hatchery adipose-fin clip.
 - **No API keys, no AI.** The regulations are parsed deterministically from DFO's HTML tables.
 
 ## Quick start (Docker)
@@ -142,3 +142,4 @@ The Salmon tab has its own "Last updated" date, which is newer than the page's m
 - Subarea boundaries: DFO Pacific Fishery Management Subareas (open map service)
 - River geometry: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors (ODbL), downloaded through the Overpass API
 - Base maps: Esri (Light, Dark, Street, Topo, Satellite)
+- Salmon photos: U.S. Food and Drug Administration, public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Oncorhynchus) (FDA 241–245). They're cropped and stored in `public/fish/`.

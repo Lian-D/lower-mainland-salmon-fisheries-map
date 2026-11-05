@@ -262,6 +262,11 @@ ul { list-style: none; margin: 0; padding: 0; }
 .fish-head { display: flex; align-items: baseline; gap: 8px; }
 .fish-en { color: var(--muted); font-size: 13px; font-weight: 600; }
 .fish-art { width: 100%; height: auto; display: block; margin: 6px 0 2px; filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.18)); }
+.fish-photo { margin: 8px 0 2px; }
+.fish-photo img { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--edge); }
+.fish-photo figcaption { margin-top: 4px; font-size: 11px; text-align: right; }
+.fish-photo figcaption a { color: var(--muted); text-decoration: none; }
+.fish-photo figcaption a:hover { text-decoration: underline; }
 .fish-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0 10px; }
 .fish-meta dt { font-size: 11px; color: var(--muted); font-weight: 650; text-transform: uppercase; letter-spacing: 0.05em; }
 .app[data-lang^="zh"] .fish-meta dt { text-transform: none; letter-spacing: 0; font-size: 12px; }
