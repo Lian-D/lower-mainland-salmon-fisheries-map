@@ -1,0 +1,766 @@
+{
+ "source": "https://www.pac.dfo-mpo.gc.ca/fm-gp/rec/fresh-douce/region2-eng.html",
+ "fetchedAt": "2026-10-21T19:00:00.000Z",
+ "sourceModified": "2026-10-16",
+ "general": [
+  "You can only fish for salmon in Region 2 during daylight hours.",
+  "No fishing is allowed within 100 meters of any government facility operated for counting, passing or rearing fish.",
+  "The daily limit for all species of Pacific salmon from tidal and fresh waters combined is 4. Individual species limits also apply.",
+  "The possession limit for all salmon from all waters is twice the daily limit. You cannot possess more than 8 salmon in total, except for salmon that are at your ordinary residence.",
+  "The total annual limit for chinook salmon over 50 cm is 10 fish from all fresh waters combined.",
+  "Squamish watershed: the aggregate daily limit of hatchery-marked coho in the entire Squamish non-tidal systems combined is one (1)."
+ ],
+ "preamble": [
+  "There is no fishing for salmon in waters of Region 2 flowing into Areas 28 and 29 except for the opportunities listed in the table below.",
+  "Unless otherwise stated in the table below, the daily limit for waters in Region 2 flowing into Areas 13, 15, and 16 is zero (0)."
+ ],
+ "entries": [
+  {
+   "water": "Alouette River and tributaries",
+   "area": "Upstream of the 216th Street bridge to a line between two fishing boundary signs at Allco park",
+   "rules": [
+    {
+     "species": "Chinook",
+     "from": "09-01",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "1 per day",
+     "dates": "Sep 1 to Nov 30"
+    },
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "09-30",
+     "kind": "nr",
+     "text": "Non-retention",
+     "dates": "Sep 1 to Sep 30"
+    },
+    {
+     "species": "Coho",
+     "from": "10-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Oct 1 to Dec 31"
+    },
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  },
+  {
+   "water": "Alouette River and tributaries",
+   "area": "Downstream of the 216th street bridge to the confluence of the Pitt River",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "10-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Oct 1 to Dec 31"
+    },
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  },
+  {
+   "water": "Alouette River and tributaries",
+   "area": "North Alouette and tributaries",
+   "rules": [
+    {
+     "species": "Chinook",
+     "from": "09-01",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "1 per day",
+     "dates": "Sep 1 to Nov 30"
+    },
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "11-30",
+     "kind": "nr",
+     "text": "Non-retention",
+     "dates": "Sep 1 to Nov 30"
+    }
+   ]
+  },
+  {
+   "water": "Ashlu Creek",
+   "area": "",
+   "rules": [
+    {
+     "species": "All",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "gear",
+     "text": "Bait ban",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Coho",
+     "from": "09-15",
+     "to": "01-31",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Sep 15 to Jan 31"
+    }
+   ]
+  },
+  {
+   "water": "Capilano River",
+   "area": "including tributaries",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "04-01",
+     "to": "06-30",
+     "kind": "keep",
+     "text": "2 hatchery marked per day",
+     "dates": "Apr 1 to Jun 30"
+    },
+    {
+     "species": "Coho",
+     "from": "07-01",
+     "to": "03-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day",
+     "dates": "Jul 1 to Mar 31"
+    },
+    {
+     "species": "Coho",
+     "from": "08-01",
+     "to": "10-31",
+     "kind": "gear",
+     "text": "Bait ban",
+     "dates": "Aug 1 to Oct 31"
+    },
+    {
+     "species": "Chinook",
+     "from": "08-01",
+     "to": "09-04",
+     "kind": "keep",
+     "text": "4 per day, only 2 over 62 cm",
+     "dates": "Aug 1 to Sep 4"
+    },
+    {
+     "species": "Chinook",
+     "from": "09-05",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "4 per day",
+     "dates": "Sep 5 to Nov 30",
+     "notice": {
+      "id": "FN0960",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=366086&ID=all"
+     }
+    },
+    {
+     "species": "Chinook",
+     "from": "08-01",
+     "to": "10-31",
+     "kind": "gear",
+     "text": "Bait ban",
+     "dates": "Aug 1 to Oct 31"
+    }
+   ]
+  },
+  {
+   "water": "Chapman Creek",
+   "area": "upstream of tidal water fishing boundary signs located below the Hwy 101 Bridge to 100 m below the falls. The falls are located approximately 550 m upstream of the powerline crossing.",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day, only 2 over 35 cm",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Chinook",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "keep",
+     "text": "4 per day, only 1 over 50 cm",
+     "dates": "Apr 1 to Mar 31"
+    }
+   ]
+  },
+  {
+   "water": "Cheakamus River",
+   "area": "",
+   "rules": [
+    {
+     "species": "All",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "gear",
+     "text": "Bait ban",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Coho",
+     "from": "09-15",
+     "to": "01-31",
+     "kind": "keep",
+     "text": "1 per day, hatchery marked only",
+     "dates": "Sep 15 to Jan 31"
+    }
+   ]
+  },
+  {
+   "water": "Chehalis River",
+   "area": "downstream of the logging bridge 2.4 km downstream of Chehalis Lake, including tributaries to that part",
+   "rules": [
+    {
+     "species": "Chinook",
+     "from": "06-01",
+     "to": "08-31",
+     "kind": "keep",
+     "text": "1 per day",
+     "dates": "June 1 to Aug 31"
+    },
+    {
+     "species": "Chinook",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 per day, only 1 over 62 cm",
+     "dates": "Sep 1 to Dec 31"
+    },
+    {
+     "species": "Coho",
+     "from": "06-01",
+     "to": "08-31",
+     "kind": "nr",
+     "text": "Non-retention",
+     "dates": "June 1 to Aug 31"
+    },
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day",
+     "dates": "Sep 1 to Dec 31"
+    },
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  },
+  {
+   "water": "Chilliwack/Vedder River (including Sumas River)",
+   "area": "from a line between 2 fishing boundary signs on either side of the Chilliwack River 100 m downstream from the confluence of the Chilliwack River and Slesse Creek downstream including that portion of the Sumas River from the Barrow Town Pump Station downstream to fishing boundary signs near the confluence with the Fraser River.",
+   "rules": [
+    {
+     "species": "Chinook",
+     "from": "07-01",
+     "to": "08-31",
+     "kind": "keep",
+     "text": "1 per day",
+     "dates": "July 1 to Aug 31"
+    },
+    {
+     "species": "Chinook",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 per day, only 2 over 62 cm",
+     "dates": "Sep 1 to Dec 31"
+    },
+    {
+     "species": "Coho",
+     "from": "07-01",
+     "to": "08-31",
+     "kind": "nr",
+     "text": "Non-retention",
+     "dates": "July 1 to Aug 31"
+    },
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day",
+     "dates": "Sep 1 to Dec 31"
+    },
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  },
+  {
+   "water": "Coquitlam River",
+   "area": "",
+   "rules": [
+    {
+     "species": "Chinook",
+     "from": "09-05",
+     "to": "09-18",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Sep 5 to Sep 18",
+     "notice": {
+      "id": "FN0961",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=366093&ID=all"
+     }
+    },
+    {
+     "species": "Chinook",
+     "from": "09-19",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "1 per day",
+     "dates": "Sep 19 to Dec 31",
+     "notice": {
+      "id": "FN1008",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=367431&ID=all"
+     }
+    },
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Sep 1 to Dec 31"
+    }
+   ]
+  },
+  {
+   "water": "De Boville Slough",
+   "area": "downstream of the confluence of Cedar Creek and Hyde Creek.",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "10-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Oct 1 to Dec 31"
+    }
+   ]
+  },
+  {
+   "water": "Fraser River",
+   "area": "mainstem waters upstream of the CPR Bridge at Mission, BC",
+   "rules": [
+    {
+     "species": "All",
+     "from": "04-01",
+     "to": null,
+     "kind": "closed",
+     "text": "No fishing for salmon",
+     "dates": "Apr 1 until further notice"
+    }
+   ]
+  },
+  {
+   "water": "Harrison River",
+   "area": "from the outlet of Harrison Lake downstream to the Highway 7 Bridge",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day",
+     "dates": "Sep 1 to Dec 31"
+    },
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  },
+  {
+   "water": "Harrison River",
+   "area": "from the Highway 7 Bridge downstream to the confluence with the Fraser River",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day",
+     "dates": "Sep 1 to Dec 31"
+    },
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  },
+  {
+   "water": "Kanaka Creek",
+   "area": "downstream of the 112th Street bridge.",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "11-01",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Nov 1 to Nov 30"
+    }
+   ]
+  },
+  {
+   "water": "Khartoum Lake",
+   "area": "",
+   "rules": [
+    {
+     "species": "All",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "gear",
+     "text": "Single barbless hook",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Chinook",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "keep",
+     "text": "4 per day",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Coho",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "keep",
+     "text": "4 per day",
+     "dates": "Apr 1 to Mar 31"
+    }
+   ]
+  },
+  {
+   "water": "Little Campbell River",
+   "area": "downstream of 12th Avenue, including tributaries to that part.",
+   "rules": [
+    {
+     "species": "Chinook",
+     "from": "08-15",
+     "to": "09-15",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Aug 15 to Sep 15"
+    },
+    {
+     "species": "Chinook",
+     "from": "09-16",
+     "to": "12-31",
+     "kind": "nr",
+     "text": "Non-retention",
+     "dates": "Sep 16 to Dec 31"
+    },
+    {
+     "species": "Coho",
+     "from": "08-15",
+     "to": "09-15",
+     "kind": "nr",
+     "text": "Non-retention",
+     "dates": "Aug 15 to Sep 15"
+    },
+    {
+     "species": "Coho",
+     "from": "09-16",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Sep 16 to Dec 31"
+    }
+   ]
+  },
+  {
+   "water": "Little Campbell River",
+   "area": "downstream of a line between 2 fishing boundary signs on either side of the Little Campbell River to the pedestrian bridge at the foot of Stayte Road.",
+   "rules": [
+    {
+     "species": "All",
+     "from": "08-15",
+     "to": "09-30",
+     "kind": "closed",
+     "text": "No fishing for salmon",
+     "dates": "Aug 15 to Sep 30"
+    }
+   ]
+  },
+  {
+   "water": "Lois Lake",
+   "area": "",
+   "rules": [
+    {
+     "species": "All",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "gear",
+     "text": "Single barbless hook",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Chinook",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "keep",
+     "text": "4 per day",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Coho",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "keep",
+     "text": "4 per day",
+     "dates": "Apr 1 to Mar 31"
+    }
+   ]
+  },
+  {
+   "water": "Mamquam River",
+   "area": "",
+   "rules": [
+    {
+     "species": "All",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "gear",
+     "text": "Bait ban",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Coho",
+     "from": "09-15",
+     "to": "01-31",
+     "kind": "keep",
+     "text": "1 per day, hatchery marked only",
+     "dates": "Sep 15 to Jan 31"
+    }
+   ]
+  },
+  {
+   "water": "Nicomekl River",
+   "area": "downstream of 208th Street",
+   "rules": [
+    {
+     "species": "Chinook",
+     "from": "09-01",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "1 per day",
+     "dates": "Sep 1 to Nov 30"
+    },
+    {
+     "species": "Chinook",
+     "from": "12-01",
+     "to": "12-31",
+     "kind": "nr",
+     "text": "Non-retention",
+     "dates": "Dec 1 to Dec 31"
+    },
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Sep 1 to Dec 31"
+    }
+   ]
+  },
+  {
+   "water": "Nicomen (including Dewdney) Slough",
+   "area": "from the confluence of Siddle (Bell's) Creek downstream to the Fraser River",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day, only 2 over 35 cm",
+     "dates": "Sep 1 to Dec 31"
+    }
+   ]
+  },
+  {
+   "water": "Nicomen (including Dewdney) Slough",
+   "area": "from the Highway 7 bridge at Dewdney downstream to the Fraser River",
+   "rules": [
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  },
+  {
+   "water": "Norrish (Suicide) Creek",
+   "area": "",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day, only 2 over 35 cm",
+     "dates": "Sep 1 to Dec 31"
+    }
+   ]
+  },
+  {
+   "water": "Serpentine River",
+   "area": "downstream of 168th Street at Bothwell Park",
+   "rules": [
+    {
+     "species": "Chinook",
+     "from": "09-01",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "1 per day",
+     "dates": "Sep 1 to Nov 30"
+    },
+    {
+     "species": "Chinook",
+     "from": "12-01",
+     "to": "12-31",
+     "kind": "nr",
+     "text": "Non-retention",
+     "dates": "Dec 1 to Dec 31"
+    },
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "1 hatchery marked per day",
+     "dates": "Sep 1 to Dec 31"
+    },
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  },
+  {
+   "water": "Squamish River (including Powerhouse Channel)",
+   "area": "",
+   "rules": [
+    {
+     "species": "All",
+     "from": "04-01",
+     "to": "03-31",
+     "kind": "gear",
+     "text": "Bait ban",
+     "dates": "Apr 1 to Mar 31"
+    },
+    {
+     "species": "Coho",
+     "from": "09-15",
+     "to": "01-31",
+     "kind": "keep",
+     "text": "1 per day, hatchery marked only",
+     "dates": "Sep 15 to Jan 31"
+    }
+   ]
+  },
+  {
+   "water": "Stave River",
+   "area": "downstream of B.C. Hydro Dam to the CPR Railway Bridge; except you shall not fish for salmon in that portion on the east side of the Stave River, known as the Ruskin Spawning Channel on the east bank of the BC Hydro park from the inlet near the dam, downstream to the boat ramp crossing; and you shall not fish for salmon in that portion on the west side of the Stave River known as the Northrop Spawning Channel from the intake downstream to where the channel joins the Stave River mainstem, including its tributary containing the fishway",
+   "rules": [
+    {
+     "species": "Coho",
+     "from": "09-01",
+     "to": "12-31",
+     "kind": "keep",
+     "text": "4 hatchery marked per day, only 2 over 35 cm",
+     "dates": "Sep 1 to Dec 31"
+    },
+    {
+     "species": "Chum",
+     "from": "10-17",
+     "to": "11-30",
+     "kind": "keep",
+     "text": "2 per day",
+     "dates": "Oct 17 to Nov 30",
+     "notice": {
+      "id": "FN1122",
+      "url": "https://notices.dfo-mpo.gc.ca/fns-sap/index-eng.cfm?pg=view_notice&DOC_ID=370681&ID=all"
+     }
+    }
+   ]
+  }
+ ],
+ "warnings": []
+}

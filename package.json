@@ -1,0 +1,36 @@
+{
+  "name": "salmon-map",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "i18n:hans": "node scripts/gen-zh-hans.mjs",
+    "test": "python3 test/make-fixtures.py test/fixtures && tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@turf/bbox": "7.2.0",
+    "@turf/boolean-intersects": "7.2.0",
+    "@turf/buffer": "7.2.0",
+    "@turf/helpers": "7.2.0",
+    "@turf/intersect": "7.2.0",
+    "@turf/union": "7.2.0",
+    "cheerio": "1.2.0",
+    "domhandler": "5.0.3",
+    "leaflet": "1.9.4",
+    "next": "15.5.28",
+    "node-cron": "4.6.0",
+    "react": "19.2.9",
+    "react-dom": "19.2.9"
+  },
+  "devDependencies": {
+    "@types/leaflet": "1.9.22",
+    "@types/node": "22.20.5",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "opencc-js": "1.4.2",
+    "tsx": "^4.20.6",
+    "typescript": "5.9.3"
+  }
+}

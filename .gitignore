@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+data/
+test/fixtures/
+.env
+.env.*
+*.log
+.DS_Store
+next-env.d.ts
+*.tsbuildinfo

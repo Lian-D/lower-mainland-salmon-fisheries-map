@@ -1,0 +1,601 @@
+{
+ "source": "https://www.pac.dfo-mpo.gc.ca/fm-gp/rec/tidal-maree/a-s29-eng.html",
+ "fetchedAt": "2026-10-21T19:00:00.000Z",
+ "sourceModified": "2026-10-20",
+ "scope": "salmon-tab",
+ "anchor": null,
+ "regs": [
+  {
+   "species": "Chinook",
+   "areaText": "29-1 to 29-5 and 29-8",
+   "subs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "partial": [],
+   "minSize": "62cm",
+   "gear": "barbless hook and line",
+   "limit": "2",
+   "status": "open",
+   "statusText": "Open"
+  },
+  {
+   "species": "Chinook",
+   "areaText": "29-6,29-7 and 29-9 to 29-17",
+   "subs": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [],
+   "minSize": "",
+   "gear": "",
+   "limit": "0",
+   "status": "closed",
+   "statusText": "Closed"
+  },
+  {
+   "species": "Chum",
+   "areaText": "29-1 to 29-5 and 29-8",
+   "subs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "partial": [],
+   "minSize": "30cm",
+   "gear": "barbless hook and line",
+   "limit": "4",
+   "status": "open",
+   "statusText": "Open"
+  },
+  {
+   "species": "Chum",
+   "areaText": "29-6,29-7 and 29-9 to 29-17",
+   "subs": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [],
+   "minSize": "",
+   "gear": "",
+   "limit": "0",
+   "status": "closed",
+   "statusText": "Closed"
+  },
+  {
+   "species": "Coho",
+   "areaText": "29-1 to 29-5 and 29-8",
+   "subs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "partial": [],
+   "minSize": "30cm",
+   "gear": "barbless hook and line",
+   "limit": "2 Combined Total* Consisting of no more than: 2 - Hatchery - marked0 - Wild - unmarked",
+   "status": "open",
+   "statusText": "Open"
+  },
+  {
+   "species": "Coho",
+   "areaText": "29-6,29-7 and 29-9 to 29-17",
+   "subs": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [],
+   "minSize": "",
+   "gear": "",
+   "limit": "0",
+   "status": "closed",
+   "statusText": "Closed"
+  },
+  {
+   "species": "Pink",
+   "areaText": "29-1 to 29-5 and 29-8",
+   "subs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "partial": [],
+   "minSize": "30cm",
+   "gear": "barbless hook and line",
+   "limit": "4",
+   "status": "open",
+   "statusText": "Open"
+  },
+  {
+   "species": "Pink",
+   "areaText": "29-6,29-7 and 29-9 to 29-17",
+   "subs": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [],
+   "minSize": "",
+   "gear": "",
+   "limit": "0",
+   "status": "closed",
+   "statusText": "Closed"
+  },
+  {
+   "species": "Sockeye",
+   "areaText": "29-1 to 29-5 and 29-8",
+   "subs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "partial": [],
+   "minSize": "30cm",
+   "gear": "barbless hook and line",
+   "limit": "0",
+   "status": "nr",
+   "statusText": "Non Retention"
+  },
+  {
+   "species": "Sockeye",
+   "areaText": "29-6,29-7 and 29-9 to 29-17",
+   "subs": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [],
+   "minSize": "",
+   "gear": "",
+   "limit": "0",
+   "status": "closed",
+   "statusText": "Closed"
+  }
+ ],
+ "restrictions": [
+  {
+   "species": "All",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Closed",
+   "details": "From one hour after sunset to one hour before sunrise only - (year round )",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Reminder",
+   "details": "As per the British Columbia Sport Fishing Regulations, 1996 - It is prohibited to fish in the tidal portion of the Fraser River using a fishing line with a barbed hook attached.",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "29",
+   "subs": null,
+   "partial": [],
+   "type": "Reminder",
+   "details": "In tidal waters, it is illegal to angle with a fishing line that has more than one hook, artificial lure or artificial fly attached, with the following exceptions: (1) When bait fishing, you may attach multiple hooks to hold a single piece of bait as long as the hooks are not arranged to catch more than one fish. (2) When fishing for herring, mackerel, northern anchovy, Pacific sand lance or Pacific sardine you may attach any number of hooks to a line. (3) In the tidal waters of the Fraser River (see area boundary description below), you may fish with two hooks, artificial lures or artificial flies (on one line).",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Reminder",
+   "details": "As per the British Columbia Sport Fishing Regulations, 1996 - It is prohibited to use more than one line when sport fishing in the tidal waters of the Fraser River.",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "Coastwide",
+   "subs": null,
+   "partial": [],
+   "type": "Daily Limit Pieces",
+   "details": "4 - The daily limit for all species of Pacific salmon from tidal and fresh waters combined is four. Individual species limits also apply.",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "29",
+   "subs": null,
+   "partial": [],
+   "type": "Gear Restriction",
+   "details": "You are not allowed to harvest using the following gears and methods: a hook having more than one point (Sep 1 to Mar 31)",
+   "closes": false,
+   "from": "09-01",
+   "to": "03-31"
+  },
+  {
+   "species": "All",
+   "areaText": "29",
+   "subs": null,
+   "partial": [],
+   "type": "Gear Restriction",
+   "details": "You are not allowed to harvest using the following gears and methods: barbed hook (year round )",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "29",
+   "subs": null,
+   "partial": [],
+   "type": "Gear Restriction",
+   "details": "You are not allowed to harvest using the following gears and methods: a hook having a single point greater than 22 mm from point to shank (Sep 1 to Mar 31)",
+   "closes": false,
+   "from": "09-01",
+   "to": "03-31"
+  },
+  {
+   "species": "All",
+   "areaText": "Coastwide",
+   "subs": null,
+   "partial": [],
+   "type": "Reminder",
+   "details": "When Open, the Possession Limit for salmon is twice the Daily Limit.",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "29-3",
+   "subs": [
+    3
+   ],
+   "partial": [],
+   "type": "Reminder",
+   "details": "As a Condition of Licence, the use of downriggers is prohibited in portions of Subareas 28-1, 28-2, 28-3, 28-4, and 29-3 in the Howe Sound glass sponge reef marine refuges and fishery closure areas, as described at http://www.dfo-mpo.gc.ca/oceans/ceccsr-cerceef/closures-fermetures-eng.html.",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "Coastwide",
+   "subs": null,
+   "partial": [],
+   "type": "Reminder",
+   "details": "Hatchery (marked) salmon - Chinook and coho salmon with a healed scar in place of the adipose fin.",
+   "closes": false
+  },
+  {
+   "species": "All",
+   "areaText": "Coastwide",
+   "subs": null,
+   "partial": [],
+   "type": "Reminder",
+   "details": "The use of more than one single hook is permitted (e.g., using two single hooks in a tandem set up to hold a single piece of bait or lure is permitted) (See exceptions).",
+   "closes": false
+  },
+  {
+   "species": "Chinook",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Closed",
+   "details": "barbless hook and line (year round )",
+   "closes": true
+  },
+  {
+   "species": "Chinook",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Minimum Size (cm)",
+   "details": "30",
+   "closes": false,
+   "minSize": 30
+  },
+  {
+   "species": "Chinook",
+   "areaText": "Coastwide",
+   "subs": null,
+   "partial": [],
+   "type": "Annual Limit Pieces",
+   "details": "10 - The coastwide total annual limit for chinook salmon is 10 from all tidal waters that are open to chinook retention.",
+   "closes": false
+  },
+  {
+   "species": "Chinook",
+   "areaText": "Coastwide",
+   "subs": null,
+   "partial": [],
+   "type": "Reminder",
+   "details": "Keeping your chinook salmon? You must permanently record all retained chinook salmon (head-on length) on your Tidal Waters Sport Fishing Licence.",
+   "closes": false
+  },
+  {
+   "species": "Chum",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Closed",
+   "details": "barbless hook and line (year round )",
+   "closes": true
+  },
+  {
+   "species": "Coho",
+   "areaText": "Portion of Subarea 29-1 in front of Chapman Creek",
+   "subs": [],
+   "partial": [
+    1
+   ],
+   "type": "Daily Limit Pieces",
+   "details": "2",
+   "closes": false,
+   "dailyLimit": 2
+  },
+  {
+   "species": "Coho",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Closed",
+   "details": "barbless hook and line (year round )",
+   "closes": true
+  },
+  {
+   "species": "Coho",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Minimum Size (cm)",
+   "details": "25",
+   "closes": false,
+   "minSize": 25
+  },
+  {
+   "species": "Pink",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Closed",
+   "details": "barbless hook and line (year round )",
+   "closes": true
+  },
+  {
+   "species": "Pink",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Daily Limit Pieces",
+   "details": "0",
+   "closes": false,
+   "dailyLimit": 0
+  },
+  {
+   "species": "Sockeye",
+   "areaText": "Tidal Portion of Fraser River (Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ],
+   "type": "Closed",
+   "details": "barbless hook and line (year round )",
+   "closes": true
+  }
+ ],
+ "areas": [
+  {
+   "name": "Coastwide",
+   "description": "",
+   "areaText": "Coastwide",
+   "subs": null,
+   "partial": []
+  },
+  {
+   "name": "Portion of Subarea 29-1 in front of Chapman Creek",
+   "description": "Portion of Subarea 29-1 in front of Chapman Creek of Davis Bay and Trail Bay, inside a half mile ribbon boundary (1/2 mile offshore), commencing from one half mile true South of the Western boundary of Snickett Park (49°27.625'N and 123°45.903'W to one half mile true South of the marker at the entrance to the Port Stalashin Marina (49°25.875'N and 123°42.824'W).",
+   "areaText": "Portion of Subarea 29-1 in front of Chapman Creek",
+   "subs": [],
+   "partial": [
+    1
+   ]
+  },
+  {
+   "name": "Tidal Portion of Fraser River (Area 29)",
+   "description": "Fraser River downstream of the CPR Bridge at Mission, BC to the mouth of the river. The following Subareas or portions of Subareas: (a) Subarea 29-11 and Subareas 29-13 to 29-17; (b) The portion of Subarea 29-9 bounded on the west by a line from a fishing boundary sign near the entrance to Canoe Passage, thence to a fishing boundary sign on Westham Island, thence following the westerly shoreline of Westham Island and Reifel Island to Pelly Point on Reifel Island, thence to Garry Point on Lulu Island; and (c) The portion of Subarea 29-12 bounded on the west by a line from the most southwesterly point of Sea Island, thence following the westerly shoreline of that island to the Iona Island Road Causeway, thence following that causeway and continuing in a straight line in a northerly direction to a fishing boundary sign on the north shore of Iona Island, thence in a straight line in a northerly direction to a fishing boundary sign on the mainland.",
+   "areaText": "Tidal Portion of Fraser River (Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ]
+  },
+  {
+   "name": "Tidal portion of the Fraser River (in Area 29)",
+   "description": "The following Subareas or portions of Subareas: (a) Subarea 29-11 and Subareas 29-13 to 29-17; (b) The portion of Subarea 29-9 bounded on the west by a line from a fishing boundary sign near the entrance to Canoe Passage, thence to a fishing boundary sign on Westham Island, thence following the westerly shoreline of Westham Island and Reifel Island to Pelly Point on Reifel Island, thence to Garry Point on Lulu Island; and (c) The portion of Subarea 29-12 bounded on the west by a line from the most southwesterly point of Sea Island, thence following the westerly shoreline of that island to the Iona Island Road Causeway, thence following that causeway and continuing in a straight line in a northerly direction to a fishing boundary sign on the north shore of Iona Island, thence in a straight line in a northerly direction to a fishing boundary sign on the mainland.",
+   "areaText": "Tidal portion of the Fraser River (in Area 29)",
+   "subs": [
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "partial": [
+    9,
+    12
+   ]
+  }
+ ],
+ "rows": [],
+ "salmonUpdated": "2026-10-20",
+ "status": "closed",
+ "hash": "746b51da9e7b6798"
+}

@@ -1,0 +1,19 @@
+services:
+  salmon-map:
+    build: .
+    image: salmon-map:latest
+    container_name: salmon-map
+    restart: unless-stopped
+    ports:
+      - "${SALMON_PORT:-3080}:3000"
+    environment:
+      TZ: America/Vancouver
+      # When to re-check DFO (cron, in TZ). Default: 6:00 every morning.
+      FETCH_CRON: "0 6 * * *"
+      # Optional: set to enable POST /api/refresh (manual refresh / re-download rivers)
+      REFRESH_TOKEN: ${REFRESH_TOKEN:-}
+    volumes:
+      - salmon-data:/data
+
+volumes:
+  salmon-data:
